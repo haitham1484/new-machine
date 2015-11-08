@@ -6,9 +6,13 @@ For now, writing a list of everything. Then I'll write a script to automate.
 - Install iTerm 2.
 - Install zsh + oh-my-zsh
 - Install Homebrew.
-- Install vundle
 
-Setup tmux
+
+**Setup vim**      
+Install vim with clipboard+ and python support.
+Install vundle.
+
+**Setup tmux**    
 ```
 brew install tmux
 brew install reattach-to-user-namespace
