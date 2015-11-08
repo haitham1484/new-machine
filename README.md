@@ -2,7 +2,7 @@
 Setting up a new OSX machine
 For now, writing a list of everything. Then I'll write a script to automate.
 
-
+Install iTerm 2.
 Install Homebrew.
 ```
 brew install reattach-to-user-namespace
