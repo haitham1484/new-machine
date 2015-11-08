@@ -4,6 +4,7 @@ For now, writing a list of everything. Then I'll write a script to automate.
 
 - Xcode Licence Agreement
 - Install iTerm 2.
+- Install zsh + oh-my-zsh
 - Install Homebrew.
 - Install vundle
 
