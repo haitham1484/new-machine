@@ -9,11 +9,14 @@ For now, writing a list of everything. Then I'll write a script to automate.
 
 
 **Setup vim**      
-Install vim with clipboard+ and python support.
-Install vundle.
+- Install vim with clipboard+ and python support.
+http://www.vimninjas.com/2012/09/21/vim-ruby-python/
+- Install vundle.
 
 **Setup tmux**    
 ```
 brew install tmux
 brew install reattach-to-user-namespace
 ```
+
+
