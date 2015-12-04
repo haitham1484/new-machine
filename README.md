@@ -71,7 +71,7 @@ Install this version via `rbenv install`.
 ```
 $ rbenv install <version>
 ```
-Then point global ruby to be this version.
+Then point global ruby to be this version:
 ```
 $ rbenv global
 system
@@ -82,7 +82,26 @@ $ ruby -v
 ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
 ```
 
+**Setup Bundler**    
+```
+$ ruby -r bundler -e "puts RUBY_VERSION"
+(an error complaining about bundler being missing)
+$ gem install bundler
+$ ruby -r bundler -e "puts RUBY_VERSION"
+2.2.3
+$ brew install rbenv-bundler
+$ rbenv bundler on
+```
+
+**Local Ruby Project**     
+Suppose you have written a Gemfile for a project. To install the gems:
+```
+$ rbenv local <version>
+$ gem install bundler
+$ bundle install
+```
+where `<version>`, is the desired version of Ruby.  
 
 #### Node.js
-**Setup NPM**     
+**Setup NVM**     
 
