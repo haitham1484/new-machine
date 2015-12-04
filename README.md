@@ -26,7 +26,7 @@ $ brew cask install keepingyouawake
 ```
 $ brew install git
 $ git config --global alias.co checkout
-$ git config --global alias.fb checkout feature/foo-
+$ git config --global alias.fb "!sh -c \"git checkout feature/foo-$1\" -"
 ```
 
 
