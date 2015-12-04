@@ -101,7 +101,3 @@ $ gem install bundler
 $ bundle install
 ```
 where `<version>`, is the desired version of Ruby.  
-
-#### Node.js
-**Setup NVM**     
-
