@@ -30,7 +30,8 @@ clipboard+
 $ whereis vim --version | grep clipboard
 /usr/bin/vim
 ```
-Install vundle.
+**Install vundle.**
+
 Follow steps from [here](https://github.com/VundleVim/Vundle.vim).
 ```
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
