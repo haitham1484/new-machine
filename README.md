@@ -41,7 +41,7 @@ clipboard+
 $ whereis vim --version | grep clipboard
 /usr/bin/vim
 ```
-**Install vundle.**
+**Install vundle**
 
 Follow steps from [here](https://github.com/VundleVim/Vundle.vim).
 ```
@@ -56,4 +56,33 @@ brew install tmux
 brew install reattach-to-user-namespace
 ```
 
+#### Ruby
+**Setup rbenv**    
+```
+$ brew install rbenv ruby-build
+$ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+$ source ~/.bash_profile
+```
+
+**Install Ruby**    
+Find the latest version number, `<version>`, of Ruby.    
+At the time of writing, `<version> = 2.2.3`.
+Install this version via `rbenv install`.
+```
+$ rbenv install <version>
+```
+Then point global ruby to be this version.
+```
+$ rbenv global
+system
+$ rbenv global <version>
+$ rbenv global
+2.3.3
+$ ruby -v
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
+```
+
+
+#### Node.js
+**Setup NPM**     
 
