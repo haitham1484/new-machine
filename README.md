@@ -17,6 +17,12 @@ Install Cask.
 $ brew install caskroom/cask/brew-cask
 ```
 
+#### Git
+```
+$ brew install git
+```
+
+
 #### Vim
 
 **Setup vim**      
