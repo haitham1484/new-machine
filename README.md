@@ -22,7 +22,7 @@ $ brew cask install google-chrome
 $ brew cask install keepingyouawake
 ```
 
-#### Git
+#### git
 ```
 $ brew install git
 $ git config --global alias.co checkout
@@ -33,7 +33,7 @@ $ git config --global alias.lg log --oneline --decorate --all --graph¬
 ```
 
 
-#### Vim
+#### vim
 
 **Setup vim**      
 Install vim with clipboard+ and python+ support.
@@ -54,7 +54,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 and then do `:PluginInstall` inside vim.
 
-#### Tmux
+#### tmux
 **Setup tmux**    
 ```
 brew install tmux
