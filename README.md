@@ -12,9 +12,14 @@ Install Homebrew.
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-Install Cask.
+Install [Cask](http://caskroom.io/).
 ```
 $ brew install caskroom/cask/brew-cask
+```
+Install Chrome and then [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake), a Caffeine clone
+```
+$ brew cask install google-chrome
+$ brew cask install keepingyouawake
 ```
 
 #### Git
