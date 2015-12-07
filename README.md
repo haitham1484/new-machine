@@ -61,6 +61,13 @@ brew install tmux
 brew install reattach-to-user-namespace
 ```
 
+**Automatically start tmux when you create iTerm session**    
+Open iTerm Preferences. Go to *Profiles* at the top, *General* tab.
+In the *Send text at start:* field, enter the following:
+```
+tmux attach -t base || tmux new -s base
+```
+
 #### Ruby
 **Setup rbenv**    
 ```
