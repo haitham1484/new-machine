@@ -65,7 +65,7 @@ brew install reattach-to-user-namespace
 Open iTerm Preferences. Go to *Profiles* at the top, *General* tab.
 In the *Send text at start:* field, enter the following:
 ```
-tmux attach -t base || tmux new -s base
+tmux new
 ```
 
 #### Ruby
