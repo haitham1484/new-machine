@@ -112,4 +112,4 @@ $ rbenv local <version>
 $ gem install bundler
 $ bundle install
 ```
-where `<version>`, is the desired version of Ruby.  
+where `<version>` is the desired version of Ruby.  
