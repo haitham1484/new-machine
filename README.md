@@ -2,9 +2,7 @@
 Setting up a new OSX machine
 For now, writing a list of everything. Then I'll write a script to automate.
 
-- Xcode Licence Agreement
-- Install iTerm 2.
-- Install zsh + oh-my-zsh
+First you'll need to download Xcode and accept the Xcode Licence Agreement.
 
 #### Homebrew
   
@@ -18,6 +16,7 @@ $ brew install caskroom/cask/brew-cask
 ```
 Install Chrome and then [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake), a Caffeine clone
 ```
+$ brew cask install iterm
 $ brew cask install google-chrome
 $ brew cask install keepingyouawake
 ```
@@ -67,6 +66,13 @@ In the *Send text at start:* field, enter the following:
 ```
 tmux new
 ```
+
+**Add a shortcut to make scrolling in copy mode easier**    
+Add the following the iTerm Profile Keys:    
+
+- CTRL+U = Send Page Up
+- CTRL+D = Send Page Down
+
 
 #### Ruby
 **Setup rbenv**    
