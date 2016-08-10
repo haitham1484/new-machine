@@ -77,7 +77,7 @@ Add the following the iTerm Profile Keys:
 ## Unix
 
 ```
-$brew install pidof
+brew install pidof
 ```
 
 ## Ruby
