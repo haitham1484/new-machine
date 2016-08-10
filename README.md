@@ -4,7 +4,7 @@ For now, writing a list of everything. Then I'll write a script to automate.
 
 First you'll need to download Xcode and accept the Xcode Licence Agreement.
 
-#### Homebrew
+## Homebrew
   
 Install Homebrew.
 ```
@@ -21,7 +21,7 @@ $ brew cask install google-chrome
 $ brew cask install keepingyouawake
 ```
 
-#### git
+## git
 ```
 $ brew install git
 $ git config --global alias.co checkout
@@ -32,7 +32,7 @@ $ git config --global alias.lg log --oneline --decorate --all --graph¬
 ```
 
 
-#### vim
+## vim
 
 **Setup vim**      
 Install vim with clipboard+ and python+ support.
@@ -53,7 +53,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 and then do `:PluginInstall` inside vim.
 
-#### tmux
+## tmux
 **Setup tmux**    
 ```
 brew install tmux
@@ -74,7 +74,13 @@ Add the following the iTerm Profile Keys:
 - CTRL+D = Send Page Down
 
 
-#### Ruby
+## Unix
+
+```
+$brew install pidof
+```
+
+## Ruby
 **Setup rbenv**    
 ```
 $ brew install rbenv ruby-build
