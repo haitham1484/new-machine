@@ -24,6 +24,7 @@ $ brew cask install keepingyouawake
 ## git
 ```
 $ brew install git
+$ git config --global user.email "jameslawson@users.noreply.github.com"
 $ git config --global alias.co checkout
 $ git config --global alias.fb "!sh -c \"git checkout feature/foo-$1\" -"
 $ git config --global alias.st status
