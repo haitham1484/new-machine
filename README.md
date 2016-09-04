@@ -75,11 +75,17 @@ Add the following the iTerm Profile Keys:
 - CTRL+U = Send Page Up
 - CTRL+D = Send Page Down
 
-
 ## Unix
 
 ```
 brew install pidof
+```
+
+## Node
+
+```
+npm config set init.author.name $name  
+npm config set init.author.email $email
 ```
 
 ## Ruby
